@@ -1,7 +1,9 @@
 package eu.throup
 
+import java.math.MathContext
+
 package object constants {
-  def add(x: Int, y: Int): Int = x + y
+  implicit def mc: MathContext = {
+    new MathContext(256)
+  }
 }
-
-
