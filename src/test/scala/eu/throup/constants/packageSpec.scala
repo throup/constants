@@ -1,10 +1,10 @@
 package eu.throup
-package skeleton
+package constants
 
 import org.scalatest.freespec.AnyFreeSpec
 import org.scalatest.matchers.should.Matchers._
 
-class SkeletonSpec extends AnyFreeSpec {
+class packageSpec extends AnyFreeSpec {
   "Prove the test suite works" - {
     "just some maths" in {
       (1 + 2) should be (3)
